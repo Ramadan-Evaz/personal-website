@@ -1,48 +1,55 @@
 <!DOCTYPE html>
 <html lang="fa">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>سایت شخصی</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        background-color: #fafafa;
-        color: #333;
-        margin: 0;
-        padding: 0;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>صفحه خانه</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f6fa;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+    header {
+      background-color: #343a40;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      flex: 1;
+      padding: 2rem;
+      max-width: 800px;
+      width: 100%;
+      margin: 0 auto;
+    }
+    footer {
+      background-color: #343a40;
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+    }
+    @media (max-width: 600px) {
+      main {
+        padding: 1rem;
       }
-      .header {
-        background-color: #4a69bd;
-        color: #fff;
-        padding: 1rem 2rem;
-        text-align: center;
-      }
-      .content {
-        max-width: 800px;
-        margin: 2rem auto;
-        padding: 0 1rem;
-      }
-      h1 {
-        margin-top: 0;
-      }
-    </style>
-  </head>
-  <body>
-    <div class="header">
-      <h1>خوش آمدید</h1>
-    </div>
-    <div class="content">
-      <p>
-        این یک سایت شخصی نمونه است که با استفاده از GitHub Pages ساخته شده است.
-        برای ورود به این صفحه، باید نام کاربری و رمز عبور صحیح را در فرم ورود وارد
-        می‌کردید.
-      </p>
-      <p>
-        می‌توانید این صفحه را شخصی‌سازی کنید و اطلاعاتی درباره‌ی خودتان، پروژه‌ها و
-        علایقتان اضافه کنید. همچنین می‌توانید بخش‌های مختلفی مانند رزومه، نمونه
-        کارها و وبلاگ به این سایت اضافه نمایید.
-      </p>
-    </div>
-  </body>
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>به سایت شخصی من خوش آمدید</h1>
+  </header>
+  <main>
+    <p>شما با موفقیت وارد شدید.</p>
+    <p>این صفحه نمونه ساده‌ای از یک سایت شخصی است که با استفاده از GitHub Pages ساخته شده و برای نمایش در دستگاه‌های مختلف ریسپانسیو است.</p>
+  </main>
+  <footer>
+    &copy; 2025
+  </footer>
+</body>
 </html>
